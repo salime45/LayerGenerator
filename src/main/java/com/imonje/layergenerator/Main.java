@@ -14,6 +14,8 @@ import java.util.logging.Logger;
  * @author imonje
  */
 public class Main {
+    
+    private static final String PACKAGE = "com.marvax.geasoft.core";
 
     public static void main(String args[]) {
 
@@ -72,7 +74,7 @@ public class Main {
 
                     File newFile = new File(pathNewFile);
                     try (BufferedWriter output = new BufferedWriter(new FileWriter(newFile))) {
-                        output.write(content.replace("@MODEL@", model));
+                        output.write(content.replace("@MODEL@", model).replace("@PACKAGE@", PACKAGE));
                     }
                 }
 
@@ -80,5 +82,5 @@ public class Main {
             }
         }
     }
-
+    
 }

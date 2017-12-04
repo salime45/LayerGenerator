@@ -1,6 +1,6 @@
-package com.imonje.layergenerator.dao;
+package @PACKAGE@.dao;
 
-import com.imonje.layergenerator.model.@MODEL@;
+import @PACKAGE@.model.@MODEL@;
 import java.util.List;
 
 public interface @MODEL@Dao {

@@ -1,9 +1,9 @@
-package com.imonje.layergenerator.service.impl;
+package @PACKAGE@.service.impl;
 
 
-import com.imonje.layergenerator.dao.MODEL@Dao;
-import com.imonje.layergenerator.model.MODEL@;
-import com.imonje.layergenerator.service.MODEL@Service;
+import @PACKAGE@.dao.@MODEL@Dao;
+import @PACKAGE@.model.@MODEL@;
+import @PACKAGE@.service.@MODEL@Service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -32,12 +32,12 @@ public class @MODEL@ServiceImpl implements @MODEL@Service {
 
 
     @Override
-    public boolean update@MODEL@(@MODEL@ o) {
+    public boolean update(@MODEL@ o) {
         return @MODEL@Dao.save@MODEL@(o);
     }
 
     @Override
-    public boolean new@MODEL@(@MODEL@ o) {
+    public boolean nuevo(@MODEL@ o) {
         return @MODEL@Dao.save@MODEL@(o);
     }
 

@@ -1,6 +1,6 @@
-package com.imonje.layergenerator.service;
+package @PACKAGE@.service;
 
-import com.imonje.layergenerator.model.@MODEL@;
+import @PACKAGE@.model.@MODEL@;
 import java.util.List;
 
 public interface @MODEL@Service {
@@ -9,8 +9,8 @@ public interface @MODEL@Service {
 
     public @MODEL@ get@MODEL@FromCod(String cod);
 
-    public boolean nuevo@MODEL@(@MODEL@ o);
+    public boolean nuevo(@MODEL@ o);
 
-    public boolean update@MODEL@(@MODEL@ o);
+    public boolean update(@MODEL@ o);
 
 }

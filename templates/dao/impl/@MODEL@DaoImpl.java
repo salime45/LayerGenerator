@@ -1,7 +1,7 @@
-package com.imonje.layergenerator.dao.impl;
+package @PACKAGE@.dao.impl;
 
-import com.imonje.layergenerator.dao.@MODEL@Dao;
-import com.imonje.layergenerator.model.@MODEL@;
+import @PACKAGE@.dao.@MODEL@Dao;
+import @PACKAGE@.model.@MODEL@;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
